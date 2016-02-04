@@ -14,6 +14,9 @@
 		21A42E231C63DA2000FFBBFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A42E211C63DA2000FFBBFB /* LaunchScreen.storyboard */; };
 		21A42E2E1C63DA2000FFBBFB /* Lab2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A42E2D1C63DA2000FFBBFB /* Lab2Tests.swift */; };
 		21A42E391C63DA2000FFBBFB /* Lab2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A42E381C63DA2000FFBBFB /* Lab2UITests.swift */; };
+		21A42E471C63DF9400FFBBFB /* names.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21A42E461C63DF9400FFBBFB /* names.plist */; };
+		BCD6960A1C63FE140034639D /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD696081C63FE140034639D /* SearchResultsController.swift */; };
+		BCD6960B1C63FE140034639D /* SearchResultsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD696091C63FE140034639D /* SearchResultsController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		21A42E341C63DA2000FFBBFB /* Lab2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A42E381C63DA2000FFBBFB /* Lab2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab2UITests.swift; sourceTree = "<group>"; };
 		21A42E3A1C63DA2000FFBBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A42E461C63DF9400FFBBFB /* names.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = names.plist; sourceTree = "<group>"; };
+		BCD696081C63FE140034639D /* SearchResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
+		BCD696091C63FE140034639D /* SearchResultsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultsController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,12 @@
 			children = (
 				21A42E181C63DA2000FFBBFB /* AppDelegate.swift */,
 				21A42E1A1C63DA2000FFBBFB /* ViewController.swift */,
+				BCD696081C63FE140034639D /* SearchResultsController.swift */,
+				BCD696091C63FE140034639D /* SearchResultsController.xib */,
 				21A42E1C1C63DA2000FFBBFB /* Main.storyboard */,
 				21A42E1F1C63DA2000FFBBFB /* Assets.xcassets */,
 				21A42E211C63DA2000FFBBFB /* LaunchScreen.storyboard */,
+				21A42E461C63DF9400FFBBFB /* names.plist */,
 				21A42E241C63DA2000FFBBFB /* Info.plist */,
 			);
 			path = Lab2;
@@ -230,7 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				21A42E231C63DA2000FFBBFB /* LaunchScreen.storyboard in Resources */,
+				21A42E471C63DF9400FFBBFB /* names.plist in Resources */,
 				21A42E201C63DA2000FFBBFB /* Assets.xcassets in Resources */,
+				BCD6960B1C63FE140034639D /* SearchResultsController.xib in Resources */,
 				21A42E1E1C63DA2000FFBBFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD6960A1C63FE140034639D /* SearchResultsController.swift in Sources */,
 				21A42E1B1C63DA2000FFBBFB /* ViewController.swift in Sources */,
 				21A42E191C63DA2000FFBBFB /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +496,7 @@
 				21A42E3F1C63DA2000FFBBFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21A42E401C63DA2000FFBBFB /* Build configuration list for PBXNativeTarget "Lab2Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				21A42E421C63DA2000FFBBFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21A42E431C63DA2000FFBBFB /* Build configuration list for PBXNativeTarget "Lab2UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				21A42E451C63DA2000FFBBFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
